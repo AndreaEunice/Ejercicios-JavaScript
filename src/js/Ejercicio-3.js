@@ -5,18 +5,19 @@ Write a program to compute the sum and product (multiplication) of an array of n
 Example: Given an array [1, 2, 3, 4] The sum is 10. The product is 24.
 
 */
+const numbersArray = [1, 2, 3, 4]
 
+const sumaYMultipica = (numbers) => {
+    const suma = numbers.reduce( (acc, curr) => acc + curr, 0 );
+    const multiplica = numbers.reduce( (acc, curr) => acc * curr );
 
-const calcularSumYProd = (numbers) => {
-    const sum = numbers.reduce((acc, curr) => acc + curr, 0);
-    const prod = numbers.reduce((acc, curr) => acc * curr, 1);
+    console.log(`The sum is ${suma}.`);
+    console.log(`The product is ${multiplica}.`);
 
-    console.log(`La suma es ${sum}.`);
-    console.log(`El producto ${prod}.`);
-}
+};
 
-const numbersArray = [1, 2, 3, 4];
-calcularSumYProd(numbersArray);
+sumaYMultipica( numbersArray );
+
 
 
 
