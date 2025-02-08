@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+    background-color: #DDA853;  
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+    color: #16404D;  /* Color de texto */
+}
+
+main {
+    margin-bottom: 40px;
+}
