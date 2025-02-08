@@ -1,0 +1,8 @@
+/*
+
+Exercise # 6 (metodo sort; algoritmo de burbuja)
+Realizar una función que realice el algoritmo de burbuja.
+Entrada [3, 6, 12, 5, 100, 1 ]
+Salida [1, 3, 5, 6, 12, 100]
+
+*/
